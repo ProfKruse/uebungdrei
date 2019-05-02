@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a:link, a:visited, a:hover, a:active {
+    border-style:solid;
+    border-width:thin;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:small;
+    padding:4px 8px;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+a:link {
+    background-color:#BDB76B;
+    border-color:#F0E68C olive olive #F0E68C;
+    color:#000;
+}
+a:visited {
+    background-color:#BDB76B;
+    border-color:#F0E68C olive olive #F0E68C;
+    color:#8B008B;
+}
+a:hover {
+    background-color:#F0E68C;
+    border-color:olive #F0E68C #F0E68C olive;
+    color:#FF8C00;
+}
+a:active {
+    background-color:#BDB76B;
+    border-color:#F0E68C olive olive #F0E68C;
+    color:#F0E68C;
+}
