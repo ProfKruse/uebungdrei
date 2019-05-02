@@ -1,0 +1,41 @@
+body {
+    margin: 0 auto;
+    padding:0;
+    border: 0;
+    min-width: 660px;
+    max-width: 60em;
+}
+#row_wrapper{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    border: 1px solid black;
+    padding: 5px;
+    height: 150px;
+    text-align:center;
+    background-color: red;
+    color: black;
+}
+footer {
+    border: 1px solid black;
+    padding: 5px;
+    height: 40px;
+    text-align:center;
+    background-color: orange;
+    color: black;
+}
+#content {
+    flex: 1;
+    padding: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background: ghostwhite;
+}
+#sidebar {
+    flex: 0 0 10%;
+    padding: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background: gray;
+}

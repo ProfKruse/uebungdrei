@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+    padding:0;
+    border: 0;
+    min-width: 660px;
+    max-width: 60em;
+}
+#row_wrapper{
+    display: flex;
+    flex-direction: row;
+}
+header, footer {
+    border: 1px solid black;
+    padding: 5px;
+    text-align:center;
+    background-color: greenyellow;
+    color: white;
+}
+#content {
+    flex: 1;
+    padding: 10px;
+}
+#mainnav {
+    flex: 0 0 160px;
+    padding: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background: cornflowerblue;
+}
+#sidebar {
+    flex: 0 0 210px;
+    padding: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background: limegreen;
+}
